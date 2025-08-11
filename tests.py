@@ -2,6 +2,16 @@ from functions.get_files_info import get_files_info
 
 
 def test():
+  
+    #result = get_file_content("calculator", "main.py")
+    #print(result)
+
+    #result = get_file_content("calculator", "pkg/calculator.py")
+    #print(result)
+
+    #result = get_file_content("calculator", "/bin/cat")
+    #print(result)
+    
     result = get_files_info("calculator", ".")
     print("Result for current directory:")
     print(result)
